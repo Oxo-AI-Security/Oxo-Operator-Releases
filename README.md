@@ -54,6 +54,7 @@ Ask for a change in plain language. The agent reads your project, plans the work
 | 🧱 | **Custom components** | Turn recurring tasks into panels you can place on a workbench and refresh on a schedule. |
 | 🛡️ | **Approval gate** | Deleting files, changing the system or sending risky requests asks for approval in the conversation. |
 | 🎙️ | **Voice input** | A local speech model turns dictation into composer text. |
+| 🎧 | **Realtime voice** | Talk to Operator in a live voice session, chain follow-up tasks, and hear progress, approval cues and completion reports. |
 | 🌗 | **Theme & language** | Light/dark themes and a Chinese/English interface. |
 
 ---
