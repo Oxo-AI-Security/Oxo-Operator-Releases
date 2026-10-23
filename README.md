@@ -45,6 +45,8 @@ Ask for a change in plain language. The agent reads your project, plans the work
 |---|---|---|
 | 🧠 | **Agentic coding** | Describe a task; the agent inspects the project, edits files, runs commands and tests, and streams its progress. |
 | 💬 | **Tasks & sessions** | Every task is saved locally with its history. Go back, continue, or search all conversations. |
+| 📊 | **Interactive reports** | View local HTML reports inside answers, expand evidence and open the original; reports are isolated from host access and network |
+| ↔️ | **Resource tab order** | Drag workbench resource tabs to reorder them and retain the order across reloads |
 | 🔍 | **Change review** | Per-turn file-change summaries and diffs, so you can review before accepting anything. |
 | 🌐 | **Built-in browser** | Open pages, select and annotate regions, take screenshots, and use the page as context. |
 | 🧪 | **HTTP request workspace** | Author and replay requests, inspect traffic, and send request/response context to the agent. |
