@@ -50,7 +50,7 @@ Ask for a change in plain language. The agent reads your project, plans the work
 | 🔍 | **Change review** | Per-turn file-change summaries and diffs, so you can review before accepting anything. |
 | 🌐 | **Built-in browser** | Open pages, select and annotate regions, take screenshots, and use the page as context. |
 | 🧪 | **HTTP request workspace** | Author and replay requests, inspect traffic, and send request/response context to the agent. |
-| 📚 | **Knowledge base** | Import your docs into spaces and let the agent answer from them. |
+| 📚 | **Spaces and documents** | Navigate original files, edit text and supported Office content in place, and chat about the current material. |
 | 🧩 | **Plugins & tools** | GitHub, Jira, local Git, security scanners (nuclei / Trivy / Semgrep / ZAP) and more. |
 | 🖥️ | **Computer Use** | With your explicit approval, control native windows for click-and-type tasks. |
 | 🧱 | **Custom components** | Turn recurring tasks into panels you can place on a workbench and refresh on a schedule. |
@@ -153,7 +153,7 @@ Describe the goal and press **Enter**. The agent plans, reads files and runs com
 
 ## 🔐 Privacy, data & security
 
-- 🏠 **Local-first:** conversations, settings and knowledge live under `%APPDATA%\Oxo Operator` on your PC; they are not uploaded to Oxo.
+- 🏠 **Local-first:** conversations and settings live under `%APPDATA%\Oxo Operator`; Space originals default to `oxo-operator\spaces` inside Documents or another folder you select on your PC; they are not uploaded to Oxo.
 - 🔐 **Keys stay local:** provider keys are encrypted with the OS secure storage by the main process. The renderer never receives plaintext.
 - 🛡️ **Approval before risk:** high-risk operations show an approval card in the executing conversation; declining produces no target-side effect.
 - 🔏 **Verified updates:** the update manifest and installer are checked against an independent signature; a failed check never auto-installs.
@@ -166,7 +166,7 @@ Describe the goal and press **Enter**. The agent plans, reads files and runs com
 | | Requirement |
 |---|---|
 | 🪟 OS | Windows 10 / 11 (64-bit) |
-| 💾 Disk | About 1 GB free (installer is ~390 MB) |
+| 💾 Disk | See the current installer on the download page; allow additional space for the app and your files |
 | 🌐 Network | Access to your chosen model provider's API; the update check needs the official update feed |
 | 🔑 Account | No Oxo account required; bring an API key from any supported provider |
 
@@ -228,7 +228,7 @@ Only Windows 10/11 x64 is released today.
 <details>
 <summary>📦 Where is my data? Does uninstalling delete it?</summary>
 
-Everything is under `%APPDATA%\Oxo Operator`. The uninstaller does not delete that folder; remove it manually for a complete reset.
+Conversations, settings and indexes live under `%APPDATA%\Oxo Operator`. Space originals default to `oxo-operator\spaces` inside Documents or another folder you select. Uninstalling does not delete these files; back up originals and application data before resetting.
 
 </details>
 
