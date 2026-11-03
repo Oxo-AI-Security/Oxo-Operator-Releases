@@ -44,6 +44,7 @@
 | | 能力 | 对你的意义 |
 |---|---|---|
 | 🧠 | **自主编码 Agent** | 描述任务后，AI 阅读项目、修改文件、运行命令与测试，并持续汇报进度。 |
+| 🧭 | **Personal Agent** | 通过持续对话协调已注册项目和后台工作，查看原始工作会话与授权文件，并可接管或停止任务。 |
 | 💬 | **任务与会话** | 每个任务连同历史记录保存在本地，可随时继续或搜索。 |
 | 📊 | **交互报告** | 在回答中查看本地 HTML 报告、展开证据，并随时打开原文件；报告与宿主及网络隔离 |
 | ↔️ | **资源标签排序** | 拖动工作区资源标签调整顺序，重新加载后保留 |
@@ -145,9 +146,9 @@
 | ☁️ **Qwen（阿里云百炼）** | `qwen3.8-max`、`qwen3.8-flash`、`qwen3.7-plus`、`qwen3.7-flash` | <https://dashscope.console.aliyun.com/apiKey> |
 | 🤖 **ChatGPT / OpenAI** | `gpt-6.1-sol`、`gpt-6-astra`、`gpt-6-luna` | <https://platform.openai.com/api-keys> |
 | 🏢 **Azure OpenAI** | 按你的部署名选择 | <https://portal.azure.com> |
-| 🔧 **自定义兼容端点** | 自行填写模型 ID | 需兼容 OpenAI Responses API 并支持工具调用 |
+| 🔧 **自定义兼容端点** | 自行填写模型 ID | Responses 或显式选择的兼容 Chat Completions，需支持工具调用 |
 
-> ℹ️ 判断标准是「兼容 OpenAI Responses API 且能执行工具」。仅支持 Chat Completions 的端点（例如 Gemini 原生端点）无法驱动本产品的 Agent 执行。
+> ℹ️ 选择受支持的 Responses 或 Chat Completions 协议及具备工具调用能力的模型。图片与工具能力以模型声明和实际验证为准，供应商其他原生 API 不会自动兼容。
 
 ---
 
@@ -214,7 +215,7 @@ Oxo Operator 目前是 **Preview** 版本：
 <details>
 <summary>🤔 为什么没有某个模型（例如 Gemini）？</summary>
 
-本产品通过 Codex SDK 执行工具，要求服务端兼容 OpenAI Responses API 并提供工具调用能力；仅支持 Chat Completions 的端点无法完整执行任务，因此不提供。
+本产品通过 Codex SDK 执行工具，要求使用受支持的 Responses 或显式配置的 Chat Completions 端点并提供工具调用能力。供应商其他原生 API 不会自动兼容；模型选择和能力以当前配置与验证为准。
 
 </details>
 

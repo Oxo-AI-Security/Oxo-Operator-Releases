@@ -44,6 +44,7 @@ Ask for a change in plain language. The agent reads your project, plans the work
 | | Feature | What it means for you |
 |---|---|---|
 | 🧠 | **Agentic coding** | Describe a task; the agent inspects the project, edits files, runs commands and tests, and streams its progress. |
+| 🧭 | **Personal Agent** | Continue one conversation while coordinating registered projects and background work; inspect original worker conversations and scoped files, take over or stop a task. |
 | 💬 | **Tasks & sessions** | Every task is saved locally with its history. Go back, continue, or search all conversations. |
 | 📊 | **Interactive reports** | View local HTML reports inside answers, expand evidence and open the original; reports are isolated from host access and network |
 | ↔️ | **Resource tab order** | Drag workbench resource tabs to reorder them and retain the order across reloads |
@@ -145,9 +146,9 @@ Describe the goal and press **Enter**. The agent plans, reads files and runs com
 | ☁️ **Qwen (Alibaba Cloud)** | `qwen3.8-max`, `qwen3.8-flash`, `qwen3.7-plus`, `qwen3.7-flash` | <https://dashscope.console.aliyun.com/apiKey> |
 | 🤖 **ChatGPT / OpenAI** | `gpt-6.1-sol`, `gpt-6-astra`, `gpt-6-luna` | <https://platform.openai.com/api-keys> |
 | 🏢 **Azure OpenAI** | Your deployment names | <https://portal.azure.com> |
-| 🔧 **Custom compatible endpoint** | Your own model IDs | Must be compatible with the OpenAI Responses API and support tool calls |
+| 🔧 **Custom compatible endpoint** | Your own model IDs | Responses or explicitly selected compatible Chat Completions, with tool calls |
 
-> ℹ️ The requirement is an **OpenAI Responses-compatible API with tool execution**. Chat-Completions-only endpoints (for example the native Gemini endpoint) cannot drive the agent loop in this product.
+> ℹ️ Select a supported Responses or Chat Completions protocol and a model with tool calls. Image/tool capabilities follow the model's declared and verified support; a provider's unrelated native API is not automatically compatible.
 
 ---
 
@@ -214,7 +215,7 @@ Check in order: the key was copied completely, the provider account has balance/
 <details>
 <summary>🤔 Why is a model (for example Gemini) missing?</summary>
 
-The agent needs an OpenAI Responses-compatible server with tool calls. Chat-Completions-only endpoints cannot run the full agent loop, so they are not offered.
+The agent needs a supported Responses or explicitly configured Chat Completions endpoint with tool calls. A provider's unrelated native API is not automatically compatible; model choices and capabilities follow current configuration and verification.
 
 </details>
 
