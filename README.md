@@ -44,7 +44,7 @@ Ask for a change in plain language. The agent reads your project, plans the work
 | | Feature | What it means for you |
 |---|---|---|
 | 🧠 | **Agentic coding** | Describe a task; the agent inspects the project, edits files, runs commands and tests, and streams its progress. |
-| 🧭 | **Personal Agent** | Continue one conversation while coordinating registered projects and background work; inspect original worker conversations and scoped files, take over or stop a task. |
+| 🧭 | **Personal Agent** | Keep talking while background work starts, with native automatic review for new work; inspect original conversations and scoped files, take over or stop a task. |
 | 💬 | **Tasks & sessions** | Every task is saved locally with its history. Go back, continue, or search all conversations. |
 | 📊 | **Interactive reports** | View local HTML reports inside answers, expand evidence and open the original; reports are isolated from host access and network |
 | ↔️ | **Resource tab order** | Drag workbench resource tabs to reorder them and retain the order across reloads |
