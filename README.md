@@ -35,6 +35,8 @@ Ask for a change in plain language. The agent reads your project, plans the work
 
 > 💡 **New to AI agents?** Start with the [5-minute quick start](#-quick-start-in-5-minutes). You only need Windows and an API key from one supported provider — no coding, GPU or local model required.
 
+Representative screenshots from v0.1.25; see the [v0.1.26 release notes](https://github.com/Oxo-AI-Security/Oxo-Operator-Releases/releases/tag/v0.1.26) for current changes.
+
 ![Oxo Operator new task screen](images/01-new-task-en.png)
 
 ---
@@ -51,7 +53,8 @@ Ask for a change in plain language. The agent reads your project, plans the work
 | 🔍 | **Change review** | Per-turn file-change summaries and diffs, so you can review before accepting anything. |
 | 🌐 | **Built-in browser** | Open pages, select and annotate regions, take screenshots, and use the page as context. |
 | 🧪 | **HTTP request workspace** | Author and replay requests, inspect traffic, and send request/response context to the agent. |
-| 📚 | **Spaces and documents** | Navigate original files, edit text and supported Office content in place, and chat about the current material. |
+| 📚 | **Spaces and documents** | Browse a folder gallery, navigate originals, edit supported text and Office content in place, and discuss current material. |
+| 🔬 | **Deep Scan budget** | Set an optional Token budget; stop new requests at the boundary, drain in-flight requests and retain interrupted coverage. |
 | 🧩 | **Plugins & tools** | GitHub, Jira, local Git, security scanners (nuclei / Trivy / Semgrep / ZAP) and more. |
 | 🖥️ | **Computer Use** | With your explicit approval, control native windows for click-and-type tasks. |
 | 🧱 | **Custom components** | Turn recurring tasks into panels you can place on a workbench and refresh on a schedule. |
