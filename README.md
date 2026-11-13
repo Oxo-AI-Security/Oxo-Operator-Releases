@@ -35,7 +35,7 @@ Ask for a change in plain language. The agent reads your project, plans the work
 
 > 💡 **New to AI agents?** Start with the [5-minute quick start](#-quick-start-in-5-minutes). You only need Windows and an API key from one supported provider — no coding, GPU or local model required.
 
-Representative screenshots from v0.1.25; see the [v0.1.29 release notes](https://github.com/Oxo-AI-Security/Oxo-Operator-Releases/releases/tag/v0.1.29) for current changes.
+Representative screenshots from v0.1.25; see the [v0.1.30 release notes](https://github.com/Oxo-AI-Security/Oxo-Operator-Releases/releases/tag/v0.1.30) for current changes.
 
 ![Oxo Operator new task screen](images/01-new-task-en.png)
 
