@@ -35,7 +35,7 @@
 
 > 💡 **第一次用 AI Agent？** 直接看[5 分钟快速开始](#-5-分钟快速开始)。只需要 Windows 和一个受支持服务商的 API Key，不需要写代码、不需要显卡、也不需要本地模型。
 
-界面示意图取自 v0.1.25；当前更新见 [v0.1.31 发布说明](https://github.com/Oxo-AI-Security/Oxo-Operator-Releases/releases/tag/v0.1.31)。
+界面示意图取自 v0.1.25；当前更新见 [v0.1.32 发布说明](https://github.com/Oxo-AI-Security/Oxo-Operator-Releases/releases/tag/v0.1.32)。
 
 ![Oxo Operator 新任务界面](images/01-new-task-zh.png)
 
