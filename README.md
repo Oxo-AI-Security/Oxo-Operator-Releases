@@ -55,7 +55,7 @@ Representative screenshots from v0.1.25; see the [v0.1.36 release notes](https:/
 | 🧪 | **HTTP request workspace** | Author and replay requests, inspect traffic, and send request/response context to the agent. |
 | 📚 | **Spaces and documents** | Browse a folder gallery, navigate originals, edit supported text and Office content in place, and discuss current material. |
 | 🔬 | **Deep Scan budget** | Set an optional Token budget; stop new requests at the boundary, drain in-flight requests and retain interrupted coverage. |
-| 🧩 | **Plugins & tools** | GitHub, Jira, local Git, security scanners (nuclei / Trivy / Semgrep / ZAP) and more. |
+| 🧩 | **Plugins & tools** | GitHub, Jira, local Git, Computer Use, Trivy, Semgrep, Risk Scanner, and CVSS Assistant. |
 | 🖥️ | **Computer Use** | With your explicit approval, control native windows for click-and-type tasks. |
 | 🧱 | **Custom components** | Turn recurring tasks into panels you can place on a workbench and refresh on a schedule. |
 | 🛡️ | **Approval gate** | Deleting files, changing the system or sending risky requests asks for approval in the conversation. |
